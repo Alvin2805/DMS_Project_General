@@ -1,0 +1,7 @@
+
+is_active:bool
+address_id:int
+address_latitude:float
+address_longitude:float
+address_street:str
+address_type:str
