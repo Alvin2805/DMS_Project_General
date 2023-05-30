@@ -14,7 +14,7 @@ for check in lines:
     elif get_type.__contains__("String") or get_type.__contains__("CHAR") :
         out_data.write(get_field+":str")
     elif get_type.__contains__("DateTime"):
-        out_data.write(get_field+"datetime")
+        out_data.write(get_field+":datetime")
     elif get_type.__contains__("Float"):
         out_data.write(get_field+":float")
     out_data.write("\n")
